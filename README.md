@@ -1,6 +1,6 @@
 What
 ====
-Vagrant/Chef files for a LAMP server
+Vagrant/Chef files for a LAMP server designed to host Magento websites
 
 How
 ===
