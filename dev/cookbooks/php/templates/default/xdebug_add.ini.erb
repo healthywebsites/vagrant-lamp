@@ -1,6 +1,6 @@
 zend_extension = /usr/lib/php5/20090626/xdebug.so
 xdebug.remote_enable=On
-xdebug.remote_host="<%= @remote_host %>"
+xdebug.remote_host="<%= node[:php][:virtualbox_host_ip] %>"
 xdebug.remote_port=9000
 xdebug.remote_handler="dbgp"
 xdebug.remote_autostart=1

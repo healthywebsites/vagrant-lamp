@@ -2,6 +2,8 @@ What
 ====
 Vagrant/Chef files for a LAMP server designed to host Magento websites
 
+With integrated and working XDebug
+
 How
 ===
 1. Install [vagrant](http://vagrantup.com/)

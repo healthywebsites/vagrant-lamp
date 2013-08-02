@@ -47,3 +47,10 @@ packages.each do |pkg|
     action :upgrade
   end
 end
+
+template "/etc/php5/conf.d/xdebug_add.ini" do
+  source "xdebug_add.ini.erb"
+  owner "root"
+  group "root"
+  mode 0644
+end

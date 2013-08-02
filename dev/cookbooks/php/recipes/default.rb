@@ -17,16 +17,3 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-
-ip = node[:network][:interfaces][:eth1][:addresses].detect{|k,v| v[:family] == "inet" }.first
-remote_ip = ip.gsub /\.\d+$/, '.1'
-
-template "/etc/php5/conf.d/xdebug.ini" do
-  source "xdebug.ini.erb"
-  owner "root"
-  group "root"
-  mode 0644
-  variables({
-    "remote_host" => remote_ip
-  })
-end
