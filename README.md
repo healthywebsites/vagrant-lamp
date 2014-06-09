@@ -4,6 +4,9 @@ Vagrant/Chef files for a LAMP server designed to host Magento websites
 
 With integrated and working XDebug
 
+This repository is for historical purposes, not actively developed. Please use
+[vagrant-docker-lamp](https://github.com/czettnersandor/vagrant-docker-lamp)
+
 How
 ===
 1. Install [vagrant](http://vagrantup.com/)
